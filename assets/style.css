@@ -82,7 +82,7 @@ body {
 
 #main-bio {
   padding: 2%;
-  background-color: #343a40;
+  background-color: rgba(0, 0, 0, .5);
   border: white solid 1px;
 }
 
