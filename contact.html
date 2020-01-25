@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="container">
-    <nav class="navbar justify-content-center bg-transparent mb-5">
+    <nav class="navbar justify-content-center bg-transparent">
       <div class="btn-group" role="group" aria-label="Basic example">
         <a id="linkBtn" class="btn btn-outline-light transparent shadow" href="index.html" role="button">Home</a>
         <a id="linkBtn" class="btn btn-outline-light transparent shadow" href="aboutme.html" role="button">About Me</a>
@@ -21,6 +21,13 @@
         <a id="linkBtn" class="btn btn-outline-light transparent shadow" href="contact.html" role="button">Contact</a>
       </div>
     </nav>
+    <div class="jumbotron jumbotron-fluid bg-transparent mb-5">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="mainTitle">
+          <p class="nameText1">David Foster</p>
+          <p class="nameText2">FosterDB</p>
+        </div>   
+      </div>
     <form>
       <!-- <label class="heading" for="fname">First Name</label> -->
       <input type="text" id="name" name="name" class="text shadow mb-2" onfocus="`${document.getElementById('name').style='background-color:white'}`" onblur="`${document.getElementById('name').style='background-color:white'}`" placeholder="Name...">
@@ -31,7 +38,7 @@
       <!-- <label class="heading" for="message">Message</label> -->
       <input type="text" id="message" name="message" class="text shadow mb-2" onfocus="`${document.getElementById('message').style='background-color:white'}`" onblur="`${document.getElementById('message').style='background-color:white'}`" placeholder="Message...">
       <br>
-      <input type="submit" id="submit" onclick="window.location.href=`mailto:dbfoster86@gmail.com?subject=${document.getElementById('subject').value}&body=${document.getElementById('message').value}`;" class="btn btn-transparent shadow btn-sm" value="Submit">
+      <input type="submit" id="submit" onclick="window.location.href=`mailto:dbfoster86@gmail.com?subject=${document.getElementById('subject').value}&body=${document.getElementById('message').value}`;" class="btn btn-light shadow btn-sm" value="Submit">
     </form>
   </div>
 </body>
