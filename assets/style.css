@@ -21,10 +21,6 @@ body {
   background-color: rgba(0, 0, 0, .5);
 }
 
-.btn-light {
-  background-color: #343a40;
-}
-
 .mainTitle {
   margin: 2%;
 }
@@ -75,7 +71,7 @@ body {
 }
 
 #submit {
-  color: white;
+  background-color: rgba(0, 0, 0, .5);
   border: white solid 1px;
   font-size: 1rem;
   width: 15vw;
