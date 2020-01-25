@@ -18,6 +18,7 @@ body {
 #linkBtn, #stackBtn {
   width: 20vw;
   border: white solid 1px;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .btn-light {
@@ -66,8 +67,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: black;
-  background-color: #343a40;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
   background-clip: padding-box;
   border: white solid 1px;
   border-radius: .25rem;
@@ -91,5 +92,9 @@ body {
 }
 
 #aboutme, h2 {
+  color: white;
+}
+
+::placeholder {
   color: white;
 }
