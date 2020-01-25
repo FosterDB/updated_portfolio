@@ -59,7 +59,7 @@ body {
   font-size: 30pt;
 }
 
-#fname, #lname, #subject, #message {
+#name, #subject, #message {
   display: block;
   width: 100%;
   height: 100%;
@@ -70,6 +70,13 @@ body {
   color: black;
   background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid #343a40;
+  border: 1px solid white;
   border-radius: .25rem;
+}
+
+#submit {
+  color: white;
+  border: white solid 1px;
+  font-size: 1rem;
+  width: 15vw;
 }
