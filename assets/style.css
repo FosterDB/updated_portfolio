@@ -15,8 +15,9 @@ body {
   margin-top: 0;
 }
 
-#linkBtn {
+#linkBtn, #stackBtn {
   width: 20vw;
+  border: white solid 1px;
 }
 
 .mainTitle {
