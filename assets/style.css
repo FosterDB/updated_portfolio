@@ -12,17 +12,11 @@ body {
 
 .container {
   width: 90%;
-  margin-top: 5%;
+  margin-top: 0;
 }
 
 #linkBtn {
   width: 20vw;
-}
-
-.jumbotron {
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: darkslategray;
 }
 
 .mainTitle {
@@ -79,4 +73,13 @@ body {
   border: white solid 1px;
   font-size: 1rem;
   width: 15vw;
+}
+
+#main-bio {
+  padding: 10px;
+  background-color: lightslategrey;;
+}
+
+#aboutme, h2 {
+  color: white;
 }
