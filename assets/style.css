@@ -16,7 +16,7 @@ body {
 }
 
 #linkBtn, #stackBtn {
-  width: 20vw;
+  width: 23vw;
   border: white solid 1px;
   background-color: rgba(0, 0, 0, .5);
 }
@@ -48,11 +48,11 @@ body {
 }
 
 .nameText1 {
-  font-size: 70pt;
+  font-size: 8vw;
 }
 
 .nameText2 {
-  font-size: 30pt;
+  font-size: 3vw;
 }
 
 #name, #subject, #message {
