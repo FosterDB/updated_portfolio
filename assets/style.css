@@ -51,10 +51,6 @@ body {
   font-size: 8vw;
 }
 
-.nameText2 {
-  font-size: 3vw;
-}
-
 #name, #subject, #message {
   display: block;
   width: 100%;
