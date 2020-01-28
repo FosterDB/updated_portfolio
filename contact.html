@@ -29,13 +29,10 @@
         </div>   
       </div>
     <form>
-      <!-- <label class="heading" for="fname">First Name</label> -->
       <input type="text" id="name" name="name" class="text shadow mb-2" onfocus="`${document.getElementById('name').style='background-color:white'}`" onblur="`${document.getElementById('name').style='background-color:white'}`" placeholder="Name...">
       <br>
-      <!-- <label class="heading" for="lname">Last Name</label> -->
       <input type="text" id="subject" name="subject" class="text shadow mb-2" onfocus="`${document.getElementById('subject').style='background-color:white'}`" onblur="`${document.getElementById('subject').style='background-color:white'}`" placeholder="Subject...">
       <br>
-      <!-- <label class="heading" for="message">Message</label> -->
       <input type="text" id="message" name="message" class="text shadow mb-2" onfocus="`${document.getElementById('message').style='background-color:white'}`" onblur="`${document.getElementById('message').style='background-color:white'}`" placeholder="Message...">
       <br>
       <input type="submit" id="submit" onclick="window.location.href=`mailto:dbfoster86@gmail.com?subject=${document.getElementById('subject').value}&body=${document.getElementById('message').value}`;" class="btn btn-outline-light transparent shadow" value="Submit">
